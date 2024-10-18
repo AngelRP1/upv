@@ -1,8 +1,7 @@
 <?php
 
-$conection = new mysqli("localhost","root","","consultorio_medico");
+$conection = new mysqli("localhost","root","","con_med");
 
-if($conn->connect_errno) {
-		echo "No hay conexión: (" . $conn->connect_errno . ") " . $conn->connect_error;
+if ($conection->connect_errno) {
+    die("Fallo la conexión a la base de datos: " . $conection->connect_error);
 }
-

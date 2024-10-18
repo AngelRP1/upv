@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b0ecf5;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centrado-centrado{
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.posicion_busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 30rem;
+    margin-top: 1.5em;
+    margin-bottom: 5em;
+}
+
+.input_buscar {
+    flex: 1;
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #9ab7d3;
+    border-radius: 0.25rem;
+}
+
+.boton_buscar {
+    padding: 0.5em 1em;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    height: 36px;
+    font-size: 11pt;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5em;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.boton_buscar:hover {
+    background-color: rgb(90, 90, 90);
+}
+
+.cuadro_blanco {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 1rem;
+    color: #6c757d;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    width: 80rem;
+    margin-bottom: 1em;
+}
+
+.cuadro_blanco2 {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 1rem;
+    color: #6c757d;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    width: 35rem;
+    margin-bottom: 1em;
+}
+
+.cuadro_blanco3 {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 1rem;
+    color: #6c757d;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    width: 50rem;
+    margin-bottom: 1em;
+}
+
+.filas {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.columnas {
+    flex: 1;
+    min-width: 250px;
+    padding: 0.5em;
+}
+
+.campos {
+    font-size: 12pt;
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    display: block;
+    margin-top: 1em;
+}
+
+.campos2 {
+    font-size: 12pt;
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    display: block;
+    margin-top: -1em;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1em;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.input2 {
+    width: 80%;
+    padding: 0.5em;
+    margin-left: 3em;
+    margin-top: 0.5em;
+    font-size: 1em;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.input_afeccion {
+    width: 66%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1em;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.boton_agregar {
+    background-color: #000000;
+    color: #ffffff;
+    width: 250px;
+    height: 40px;
+    margin-top: 2.9em;
+    margin-left: 4em;
+    font-size: 12pt;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton_agregar:hover {
+    background-color: #333333;
+}
+
+.boton_agregar2 {
+    background-color: #000000;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    margin-left: 5em;
+    margin-top: 2.9em;
+    font-size: 12pt;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton_agregar2:hover {
+    background-color: #333333;
+}
+
+.boton_agregar3{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    align-content: center;
+    font-size: 11pt;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton_agregar3:hover {
+    background-color: #333333;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    text-align: center;
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registrarse{
+    display: flex;
+    gap: 0.25rem;
+    justify-content: center;
+    margin-top: 0.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -1em;
+}
